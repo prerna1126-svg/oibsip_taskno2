@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+.mb-3{
+    margin: 20px;
+    padding: 10px;
+}
+#45{
+    align-items: center;
+    text-align: center;
+}
+header{
+    background-color:#363b65;
+    color: white;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    padding: 7px;
+}
+.sidebar{
+    /* position: sticky; */
+    /* top: 0; */
+    float: right;
+    width: 270px;
+    background-color: rgb(78, 77, 102);
+    height: 89.7vh;
+    margin-right: -7px;
+    margin-top: 35px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    list-style: none;
+    padding: 40px;
+    font-size: large;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    float: bottom;
+    background-color:rgb(164, 62, 254);
+    color: white;
+    text-align: center;
+    
+}
+
+#ask{
+    width: 460px;
+    text-align: left;
+    padding: 3px;
+}
+#InputPhone{
+    width: 460px;
+    text-align: left;
+    padding: 3px;
+}
+.form-label{
+    text-align: center;
+    width: 150px;
+    display: -webkit-inline-box;
+}
+#InputEmail1{
+    width: 460px;
+    padding: 3px;
+    display: flexbox;
+    text-align: left;
+    /* display: -webkit-inline-box; */
+    
+}
+button{
+    width: 170px;
+    height: 46px;
+    margin: 15px;
+    padding: 14px;
+    background-color: white;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s;
+    text-decoration: none black;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: #363b65;
+    color: white;
+}
+/* nav #contactme{
+    padding: 0px 0px;
+} */
+.div{
+    padding: 27px,0px;
+}
+#last{
+    float: bottom;
+    background-color:#363b65;
+    color: white;
+    padding: 7px;
+    margin-top: 350px;
+}
+h1{
+    font-family: 'EB Garamond',serif;
+    font-weight: bold;
+}

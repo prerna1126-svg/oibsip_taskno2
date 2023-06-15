@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond:wght@600&family=Press+Start+2P&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+header {
+    background-color: #363b65;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    margin: -30px;
+    padding: 20px;
+    float: right;
+    width: 256px;
+    height: 264px;
+    background-color: blue;
+    background-image: url('prerna.png');
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+h1 {
+    margin: 10px;
+    /* font-family: 'Press Start 2P', cursive; */
+    text-align: center;
+    color: rgb(24, 6, 59);
+    font-family: 'Russo One', sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    text-align: center;
+}
+
+.up {
+    background-color: rgba(0, 0, 0, 0.666);
+    /* display: flex; */
+    /* width: 15vw; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* transform: translateX(-15vw); */
+    position: fixed;
+}
+
+.up ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.upGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+li {
+    padding: 40px;
+    margin: 12%;
+    list-style: none;
+}
+
+.mid {
+    background-color: rgb(255, 255, 255);
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.close {
+    text-align: right;
+    padding-left: 130px;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.ham {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+h3 img {
+    text-align: center;
+    border-radius: 40px;
+}
+
+.sub {
+    margin-left: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: rgb(38, 51, 89);
+    border: 6px solid rgb(38, 55, 81);
+    color: white;
+    border-radius: 22px rgb(255, 255, 255);
+    height: 527px;
+    width: 85vw;
+    justify-content: center;
+    
+}
+.info{
+    transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+
+.page {
+    width: 100vw;
+    display: flexbox;
+}
+
+button {
+    width: 170px;
+    height: 46px;
+    margin: 21px;
+    padding: 14px;
+    background-color: white;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s;
+    text-decoration: none black;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .button :hover{
+    background-color: #363b65;
+    color: #ffffff;
+}
+.buttons :hover{
+    background-color: #363b65;
+    color: #ffffff;
+} */
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #363b65;
+    color: #ffffff;
+    text-decoration: white;
+}
+
+button :hover {
+    background-color: #363b65;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foot {
+    background-color: #363b65;
+    margin-left: -47px;
+    width: 107vw;
+    align-self: end;
+}
+
+#aboutme {
+    display: inline;
+    margin: 28px;
+    padding: 9px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.myprojects a {
+    text-decoration: none;
+    color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cert {
+    background-color: rgb(255, 255, 255);
+    border: #ffffff solid 2px;
+    color: black;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 2px;
+    height: 53.3vh;
+}
+
+#ask {
+    width: 460px;
+    text-align: left;
+    padding: 3px;
+}
+
+#InputPhone {
+    width: 460px;
+    text-align: left;
+    padding: 3px;
+}
+
+.form-label {
+    text-align: center;
+    width: 150px;
+    display: -webkit-inline-box;
+}
+
+#InputEmail1 {
+    width: 460px;
+    padding: 3px;
+    display: flexbox;
+    text-align: left;
+    /* display: -webkit-inline-box; */
+
+}
+
+button {
+    width: 170px;
+    height: 46px;
+    margin: 15px;
+    padding: 14px;
+    background-color: white;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s;
+    text-decoration: none black;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #363b65;
+    color: white;
+}
+
+/* nav #contactme{
+    padding: 0px 0px;
+} */
+.div {
+    padding: 27px, 0px;
+}
+
+#last {
+    float: bottom;
+    background-color: #363b65;
+    color: white;
+    padding: 7px;
+    margin-top: 350px;
+}
+
+.mb-3 {
+    margin: 20px;
+    padding: 10px;
+}
